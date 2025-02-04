@@ -1,0 +1,14 @@
+name: Certificate Prep
+
+on: push
+
+jobs: 
+    first_job:
+        runs-on: ubuntu-latest
+        steps: 
+            - name: Welcome Message
+              run: echo "hello world"
+            - name: List Files 
+              run: ls
+            - name: Read Files 
+              run: cat README.md
